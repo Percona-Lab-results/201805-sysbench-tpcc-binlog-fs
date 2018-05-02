@@ -1,0 +1,2 @@
+#./tpcc.lua --mysql-socket=/tmp/mysql.sock --mysql-user=root --mysql-db=sbinno --time=360000 --threads=20 --report-interval=1 --tables=10 --scale=100 --mysql_table_options="CHARSET utf8" --trx_level=RC --db-driver=mysql prepare
+./tpcc.lua --mysql-socket=/tmp/mysql.sock --mysql-user=sbuser --mysql-password=sbuser --mysql-db=sbinno --time=360000 --threads=20 --report-interval=1 --tables=10 --scale=100  --trx_level=RC --db-driver=mysql prepare
